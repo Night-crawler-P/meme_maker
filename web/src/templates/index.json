@@ -1,0 +1,16 @@
+{
+  "templates": [
+    {
+      "id": "demo_template",
+      "name": "Demo Template",
+      "image": "/templates/demo_template.png",
+      "target": {
+        "left_eye": { "x": 210, "y": 170 },
+        "right_eye": { "x": 310, "y": 170 },
+        "scale": 1.2,
+        "rotation_deg": 0
+      },
+      "blend": { "mode": "feather", "feather_px": 16 }
+    }
+  ]
+}
