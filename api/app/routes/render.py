@@ -19,6 +19,9 @@ async def render(
         raise HTTPException(status_code=404, detail="Unknown template_id")
 
     img_bytes = await photo.read()
-    out_png = run_pipeline(template=template, photo_bytes=img_bytes)
+    try:
+        out_png = run_pipeline(template=template, photo_bytes=img_bytes)
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc))
 
     return Response(content=out_png, media_type="image/png")

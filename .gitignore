@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Node modules
+node_modules/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Insightface model cache (downloaded at runtime)
+/tmp/insightface_cache/

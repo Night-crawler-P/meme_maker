@@ -5,3 +5,8 @@ pydantic==2.8.2
 numpy==2.0.1
 opencv-python-headless==4.10.0.84
 Pillow==10.4.0
+# Face detection — RetinaFace via ONNX (model weights auto-downloaded on first run)
+insightface==0.7.3
+onnxruntime==1.19.2
+# Face mask generation — FaceMesh landmarks (models bundled with package)
+mediapipe==0.10.14
