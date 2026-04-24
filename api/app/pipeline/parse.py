@@ -90,7 +90,7 @@ def parse_face_mask(photo_bytes: bytes, bbox_xywh: Tuple[int, int, int, int]) ->
         dtype=np.int32,
     )
 
-    # Expand upper points upward to include the hairline (~15 % of bbox height)
+    # Expand upper points upward to include the hairline (~15% of bbox height)
     hair_expand = max(1, int(bh * 0.15))
     cy_oval = float(points[:, 1].mean())
     for pt in points:

@@ -65,8 +65,8 @@ def detect_primary_face(photo_bytes: bytes) -> DetectedFace:
     the first call to *INSIGHTFACE_HOME* (default: /tmp/insightface_cache).
 
     Landmark convention — observer's perspective (matches template anchors):
-      kps[0] = left  eye (smaller x in a frontal image)
-      kps[1] = right eye (larger  x in a frontal image)
+      kps[0] = left eye  (smaller x in a frontal image)
+      kps[1] = right eye (larger x in a frontal image)
 
     Returns:
         DetectedFace with accurate eye coordinates, bbox (x,y,w,h), and score.
