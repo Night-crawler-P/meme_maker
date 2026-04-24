@@ -5,12 +5,12 @@
       "name": "Demo Template",
       "image": "/templates/image.png",
       "target": {
-        "left_eye": { "x": 210, "y": 170 },
-        "right_eye": { "x": 310, "y": 170 },
-        "scale": 1.2,
+        "left_eye": { "x": 240, "y": 215 },
+        "right_eye": { "x": 360, "y": 215 },
+        "scale": 1.0,
         "rotation_deg": 0
       },
-      "blend": { "mode": "feather", "feather_px": 16 }
+      "blend": { "mode": "feather", "feather_px": 20 }
     }
   ]
 }
