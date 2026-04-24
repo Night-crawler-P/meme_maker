@@ -3,7 +3,7 @@
     {
       "id": "demo_template",
       "name": "Demo Template",
-      "asset": "demo_template.png",
+      "asset": "image.png",
       "target": {
         "left_eye": {"x": 210, "y": 170},
         "right_eye": {"x": 310, "y": 170},
